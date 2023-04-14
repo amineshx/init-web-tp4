@@ -7,7 +7,7 @@ function calculateIMC(button) {
     var weight = row.cells[1].querySelector('input').value;
     var height = row.cells[2].querySelector('input').value;
    
-    if (isNaN(weight) || weight <= 0 || isNaN(height) || height <= 0 || (typeof name !== 'string')) {
+     if (isNaN(parseFloat(weight)) || weight <= 0 || isNaN(parseFloat(height)) || height <= 0 || (typeof name !== 'string')) {
         alert("Please enter valid input values.");
         return; // Exit the function if input is not valid
     }
