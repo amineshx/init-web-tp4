@@ -28,7 +28,6 @@ function calculateIMC(button) {
     frame2.document.write("<strong><p>Taille: " + result[2] + " m</p></strong>");
     frame2.document.write("<strong><p>IMC: " + result[3] + "</p></strong>");
     frame2.document.write("</div>");
-    // Close the document to prevent additional writes
-    frame2.document.close();
+    
 }
   
