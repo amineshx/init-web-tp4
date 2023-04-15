@@ -30,6 +30,7 @@ function calculateIMC(button) {
     frame2.document.write("</div>");
     
 }
+var alertDisplayed = false;
 function displayMessage(message) {
   if (!alertDisplayed) {
     alert(message);
